@@ -1,0 +1,2 @@
+[02-Mar-2017 16:26:39 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[16-Mar-2017 17:32:32 UTC] PHP Warning:  simplexml_load_file(): /home/mplawnyc/public_html/wp-content/polylang/wpml-config.xml:1: parser error : Document is empty in /home/mplawnyc/public_html/wp-content/plugins/polylang/modules/wpml/wpml-config.php on line 69

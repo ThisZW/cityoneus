@@ -1,0 +1,7 @@
+<wpml-config>
+  <admin-texts>
+    <key name='theme_mods_avada'>
+      <key name='logo_en.png' />
+    </key>
+  </admin-texts>
+</wpml-config>
