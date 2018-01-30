@@ -221,7 +221,7 @@ class GoogleSitemapGeneratorStandardBuilder {
 							($postType == 'page' ? $changeFrequencyForPages : $changeFrequencyForPosts),
 							$priority, $post->ID);
 					
-						$trCnParam = "?variant=zh-hant/"; //this will generate posts with tr CN params
+						$trCnParam = "zh-hant/"; //this will generate posts with tr CN params
 						$gsg->AddUrl(
 							$permalink . $trCnParam,
 							$gsg->GetTimestampFromMySql($post->post_modified_gmt && $post->post_modified_gmt != '0000-00-00 00:00:00'? $post->post_modified_gmt : $post->post_date_gmt),
